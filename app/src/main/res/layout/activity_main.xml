@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDFB3C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome to pune...!"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#9F2A00"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textAllCaps="true"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:id="@+id/Attractions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:text="Attractions"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/Hotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Hotels"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/Food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Food"
+        android:layout_margin="30dp"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/Shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:text="Shopping"
+        android:textSize="50dp" />
+
+</LinearLayout>
